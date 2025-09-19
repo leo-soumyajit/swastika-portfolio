@@ -54,13 +54,15 @@ const Hero = () => {
                 Get In Touch
               </Button>
               <Button 
-                variant="outline" 
-                size="lg"
-                className="hover:scale-105 transition-transform duration-200"
-              >
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </Button>
+  variant="outline" 
+  size="lg"
+  className="hover:scale-105 transition-transform duration-200"
+  onClick={() => window.open('/Swastika Resume.pdf', '_blank')}
+>
+  <Download className="mr-2 h-4 w-4" />
+  Download Resume
+</Button>
+
             </div>
           </AnimatedSection>
           
